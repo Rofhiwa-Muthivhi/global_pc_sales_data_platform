@@ -2,7 +2,7 @@
   DROP TABLE [Computer_std].[dbo].[dim_channel]
   CREATE TABLE [Computer_std].[dbo].[dim_channel](
     [Channel_id] INT IDENTITY(1,1) PRIMARY KEY,
-    [Channel] [nvarchar](250) NOT NULL
+    [Channel] [nvarchar](150) NOT NULL
    )
  
  --2 Insert data into table
