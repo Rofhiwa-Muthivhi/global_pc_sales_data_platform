@@ -2,11 +2,11 @@
   DROP TABLE [Computer_std].[dbo].[dim_product]
   CREATE TABLE [Computer_std].[dbo].[dim_product](
     [Product_id] INT IDENTITY(1,1) PRIMARY KEY,
-    [PC_Make] [nvarchar](250) NOT NULL,
-    [PC_Model] [nvarchar](250) NOT NULL,
-    [Storage_Type] [nvarchar](250) NOT NULL,
-	[RAM] [nvarchar](250) NOT NULL,
-	[Storage_Capacity] [nvarchar](250) NOT NULL
+    [PC_Make] [nvarchar](100) NOT NULL,
+    [PC_Model] [nvarchar](100) NOT NULL,
+    [Storage_Type] [nvarchar](100) NOT NULL,
+	[RAM] [nvarchar](50) NOT NULL,
+	[Storage_Capacity] [nvarchar](50) NOT NULL
    );
  
  --2 Insert data into table
