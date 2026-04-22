@@ -2,8 +2,8 @@
   DROP TABLE [Computer_std].[dbo].[dim_date]
   CREATE TABLE [Computer_std].[dbo].[dim_date](
     [Date_id] INT IDENTITY(1,1) PRIMARY KEY,
-    [Purchase_date] [nvarchar](250) NOT NULL,
-    [Ship_date] [nvarchar](250) NOT NULL
+    [Purchase_date] DATE NOT NULL,
+    [Ship_date] DATE NOT NULL
    )
  
  --2 Insert data into table
