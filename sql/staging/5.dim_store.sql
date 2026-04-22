@@ -2,8 +2,8 @@
   DROP TABLE [Computer_std].[dbo].[dim_store]
   CREATE TABLE [Computer_std].[dbo].[dim_store](
     [Store_id] INT IDENTITY(1,1) PRIMARY KEY,
-    [Shop_Name] [nvarchar](250) NOT NULL,
-    [Shop_Age] [nvarchar](250) NOT NULL
+    [Shop_Name] [nvarchar](150) NOT NULL,
+    [Shop_Age] INT NOT NULL
    )
  
  --2 Insert data into table
