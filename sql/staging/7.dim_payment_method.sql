@@ -2,7 +2,7 @@
   DROP TABLE [Computer_std].[dbo].[dim_payment_method]
   CREATE TABLE [Computer_std].[dbo].[dim_payment_method](
     [Payment_Method_id] INT IDENTITY(1,1) PRIMARY KEY,
-    [Payment_Method] [nvarchar](250) NOT NULL
+    [Payment_Method] [nvarchar](50) NOT NULL
    )
  
  --2 Insert data into table
