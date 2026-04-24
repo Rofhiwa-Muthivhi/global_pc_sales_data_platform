@@ -9,7 +9,7 @@
  
  --2 Insert data into table
    INSERT INTO [Computer_std].[dbo].[dim_location] (Continent, Country_or_State, Province_or_City)
-   SELECT DISTINCT Continent, Country_or_State, Province_or_City
+   SELECT DISTINCT Continent, Country_or_State,Province_or_City
    FROM [Computer_std].[dbo].[raw_pc_data]
 
  --3 Select all data from dim location
