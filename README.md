@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Global PC Sales Data Platform Banner" width="100%">
+  <img src="./assets/banner.png" alt="Global PC Sales Data Platform Banner" width="100%">
 </p>
 
 # 🌍 Global PC Sales Data Platform
