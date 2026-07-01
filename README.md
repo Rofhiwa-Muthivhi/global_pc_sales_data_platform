@@ -2,7 +2,7 @@
   <img src="./assets/banner.png" alt="Global PC Sales Data Platform Banner" width="100%">
 </p>
 
-# 🌍 Global PC Sales Data Platform
+## 📌 Project Overview
 
 This project explores a global PC sales dataset containing information about products, customers, employees, sales transactions, financing, repairs, returns, and other business operations.
 
